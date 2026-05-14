@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LALA MENS WEAR — Luxury Menswear</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600;700&family=Jost:wght@200;300;400&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Floating Cart -->
+    <div class="float-cart">
+        🛒
+        <span class="cart-count">3</span>
+    </div>
+
+    <!-- ─── NAVBAR ─────────────────────────────────────────────── -->
+    <nav id="navbar">
+        <a href="#" class="nav-logo">LALA<span>MENS WEAR</span></a>
+        <ul class="nav-links">
+            <li><a href="#collections">
+                    <h3>Collections</h3>
+                </a></li>
+            <li><a href="#products">
+                    <h3>Shop</h3>
+                </a></li>
+            <li><a href="#story">
+                    <h3> Our Story</h3>
+                </a></li>
+            <li><a href="#lookbook">
+                    <h3>Lookbook</h3>
+                </a></li>
+            <li><a href="#contact">
+                    <h3>Contact</h3>
+                </a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="nav-btn">Book Fitting</button>
+        </div>
+    </nav>
+
+    <!-- ─── HERO ───────────────────────────────────────────────── -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-lines"></div>
+        <div class="hero-bar"></div>
+
+        <div class="hero-content">
+            <p class="hero-label">New Collection 2025 — Redefining Elegance</p>
+            <h1 class="hero-title">
+                Dressed for<br>
+                <em>Excellence</em>
+            </h1>
+            <p class="hero-sub">Premium craftsmanship meets modern luxury. Every stitch tells a story of distinction.
+            </p>
+            <div class="hero-ctas">
+                <a href="#products" class="btn-gold">Explore Collection</a>
+                <a href="#lookbook" class="btn-outline">View Lookbook</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-img-placeholder">
+                <div class="hero-cloth-icon">🎩</div>
+                <!-- Your hero image goes here -->
+            </div>
+        </div>
+
+        <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- ─── MARQUEE ─────────────────────────────────────────────── -->
+    <div class="ticker">
+        <div class="ticker-inner">
+            <span>Premium Suiting</span><span class="dot">✦</span>
+            <span>Luxury Fabrics</span><span class="dot">✦</span>
+            <span>Expert Tailoring</span><span class="dot">✦</span>
+            <span>LALA Mens Wear</span><span class="dot">✦</span>
+            <span>New Arrivals 2025</span><span class="dot">✦</span>
+            <span>Exclusive Designs</span><span class="dot">✦</span>
+            <span>Premium Suiting</span><span class="dot">✦</span>
+            <span>Luxury Fabrics</span><span class="dot">✦</span>
+            <span>Expert Tailoring</span><span class="dot">✦</span>
+            <span>LALA Mens Wear</span><span class="dot">✦</span>
+            <span>New Arrivals 2025</span><span class="dot">✦</span>
+            <span>Exclusive Designs</span><span class="dot">✦</span>
+        </div>
+    </div>
+
+    <!-- ─── CATEGORIES ──────────────────────────────────────────── -->
+    <section class="categories" id="collections">
+        <div class="reveal">
+            <p class="section-label">Curated For You</p>
+            <h2 class="section-title">Shop by <em>Category</em></h2>
+            <p class="section-subtitle">Discover our finest selections — from boardroom precision to weekend refinement.
+            </p>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="categories-grid reveal">
+            <div class="cat-card">
+                <div class="cat-bg suit" style="height:100%">
+                    <div class="cat-icon">🤵</div>
+                    <div class="cat-overlay"></div>
+                    <div class="cat-info">
+                        <p class="cat-tag">Signature Line</p>
+                        <h3 class="cat-name">Premium Suits</h3>
+                        <p class="cat-count">18 Styles Available</p>
+                    </div>
+                    <div class="cat-arrow">→</div>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-bg jacket" style="height:100%">
+                    <div class="cat-icon">🧥</div>
+                    <div class="cat-overlay"></div>
+                    <div class="cat-info">
+                        <p class="cat-tag">Outerwear</p>
+                        <h3 class="cat-name">Blazers & Jackets</h3>
+                        <p class="cat-count">14 Styles Available</p>
+                    </div>
+                    <div class="cat-arrow">→</div>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-bg shirt" style="height:100%">
+                    <div class="cat-icon">👔</div>
+                    <div class="cat-overlay"></div>
+                    <div class="cat-info">
+                        <p class="cat-tag">Essentials</p>
+                        <h3 class="cat-name">Formal Shirts</h3>
+                        <p class="cat-count">24 Styles Available</p>
+                    </div>
+                    <div class="cat-arrow">→</div>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-bg trouser" style="height:100%">
+                    <div class="cat-icon">👖</div>
+                    <div class="cat-overlay"></div>
+                    <div class="cat-info">
+                        <p class="cat-tag">Lower Wear</p>
+                        <h3 class="cat-name">Trousers & Chinos</h3>
+                        <p class="cat-count">16 Styles Available</p>
+                    </div>
+                    <div class="cat-arrow">→</div>
+                </div>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-bg casual" style="height:100%">
+                    <div class="cat-icon">👕</div>
+                    <div class="cat-overlay"></div>
+                    <div class="cat-info">
+                        <p class="cat-tag">Relaxed Line</p>
+                        <h3 class="cat-name">Casual Wear</h3>
+                        <p class="cat-count">22 Styles Available</p>
+                    </div>
+                    <div class="cat-arrow">→</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── PRODUCTS ─────────────────────────────────────────────── -->
+    <section class="products" id="products">
+        <div class="products-header reveal">
+            <div>
+                <p class="section-label">Featured Pieces</p>
+                <h2 class="section-title">The <em>Collection</em></h2>
+            </div>
+            <div class="filter-tabs">
+                <button class="filter-tab active">All</button>
+                <button class="filter-tab">Suits</button>
+                <button class="filter-tab">Shirts</button>
+                <button class="filter-tab">Trousers</button>
+            </div>
+        </div>
+
+        <div class="products-grid reveal">
+
+            <!-- Product 1 -->
+            <div class="prod-card">
+                <div class="prod-img">
+                    <div class="prod-img-inner prod-p1">
+                        <div class="prod-placeholder">
+                            <div class="prod-icon">🤵</div>
+                            <span class="prod-label-overlay">Charcoal Suit</span>
+                        </div>
+                    </div>
+                    <span class="prod-badge badge-new">New</span>
+                    <div class="prod-actions">
+                        <button class="act-btn" title="Wishlist">♡</button>
+                        <button class="act-btn" title="Quick View">⊕</button>
+                    </div>
+                </div>
+                <div class="prod-info">
+                    <p class="prod-brand">Lala Signature</p>
+                    <h3 class="prod-name">Charcoal Two-Piece Suit</h3>
+                    <div class="prod-price-row">
+                        <span class="prod-price">₹8,499 <s>₹11,000</s></span>
+                        <button class="prod-add">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="prod-card">
+                <div class="prod-img">
+                    <div class="prod-img-inner prod-p2">
+                        <div class="prod-placeholder">
+                            <div class="prod-icon">🧥</div>
+                            <span class="prod-label-overlay">Navy Blazer</span>
+                        </div>
+                    </div>
+                    <span class="prod-badge badge-hot">Hot</span>
+                    <div class="prod-actions">
+                        <button class="act-btn">♡</button>
+                        <button class="act-btn">⊕</button>
+                    </div>
+                </div>
+                <div class="prod-info">
+                    <p class="prod-brand">Lala Prestige</p>
+                    <h3 class="prod-name">Navy Slim-Fit Blazer</h3>
+                    <div class="prod-price-row">
+                        <span class="prod-price">₹4,999</span>
+                        <button class="prod-add">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="prod-card">
+                <div class="prod-img">
+                    <div class="prod-img-inner prod-p3">
+                        <div class="prod-placeholder">
+                            <div class="prod-icon">👔</div>
+                            <span class="prod-label-overlay">White Shirt</span>
+                        </div>
+                    </div>
+                    <span class="prod-badge badge-new">New</span>
+                    <div class="prod-actions">
+                        <button class="act-btn">♡</button>
+                        <button class="act-btn">⊕</button>
+                    </div>
+                </div>
+                <div class="prod-info">
+                    <p class="prod-brand">Lala Classic</p>
+                    <h3 class="prod-name">Egyptian Cotton Dress Shirt</h3>
+                    <div class="prod-price-row">
+                        <span class="prod-price">₹2,299 <s>₹2,999</s></span>
+                        <button class="prod-add">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="prod-card">
+                <div class="prod-img">
+                    <div class="prod-img-inner prod-p4">
+                        <div class="prod-placeholder">
+                            <div class="prod-icon">👖</div>
+                            <span class="prod-label-overlay">Grey Chinos</span>
+                        </div>
+                    </div>
+                    <div class="prod-actions">
+                        <button class="act-btn">♡</button>
+                        <button class="act-btn">⊕</button>
+                    </div>
+                </div>
+                <div class="prod-info">
+                    <p class="prod-brand">Lala Modern</p>
+                    <h3 class="prod-name">Slim Tapered Chinos</h3>
+                    <div class="prod-price-row">
+                        <span class="prod-price">₹1,899</span>
+                        <button class="prod-add">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="prod-card">
+                <div class="prod-img">
+                    <div class="prod-img-inner prod-p5">
+                        <div class="prod-placeholder">
+                            <div class="prod-icon">🤵</div>
+                            <span class="prod-label-overlay">Black Suit</span>
+                        </div>
+                    </div>
+                    <span class="prod-badge badge-hot">Bestseller</span>
+                    <div class="prod-actions">
+                        <button class="act-btn">♡</button>
+                        <button class="act-btn">⊕</button>
+                    </div>
+                </div>
+                <div class="prod-info">
+                    <p class="prod-brand">Lala Black Label</p>
+                    <h3 class="prod-name">Midnight Black Three-Piece</h3>
+                    <div class="prod-price-row">
+                        <span class="prod-price">₹12,999</span>
+                        <button class="prod-add">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="prod-card">
+                <div class="prod-img">
+                    <div class="prod-img-inner prod-p6">
+                        <div class="prod-placeholder">
+                            <div class="prod-icon">👕</div>
+                            <span class="prod-label-overlay">Polo Shirt</span>
+                        </div>
+                    </div>
+                    <div class="prod-actions">
+                        <button class="act-btn">♡</button>
+                        <button class="act-btn">⊕</button>
+                    </div>
+                </div>
+                <div class="prod-info">
+                    <p class="prod-brand">Lala Casual</p>
+                    <h3 class="prod-name">Premium Pique Polo</h3>
+                    <div class="prod-price-row">
+                        <span class="prod-price">₹1,499 <s>₹1,999</s></span>
+                        <button class="prod-add">Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Empty Slot 1 -->
+            <div class="prod-card prod-empty">
+                <div class="prod-img">
+                    <div class="prod-img-inner">
+                        <div class="prod-placeholder">
+                            <div class="plus">✦</div>
+                            <span class="empty-text">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-info">
+                    <p class="prod-brand" style="opacity:.2">Lala Reserve</p>
+                    <h3 class="prod-name" style="opacity:.2">New Arrival</h3>
+                    <div class="prod-price-row">
+                        <span class="prod-price" style="opacity:.2">— —</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Empty Slot 2 -->
+            <div class="prod-card prod-empty">
+                <div class="prod-img">
+                    <div class="prod-img-inner">
+                        <div class="prod-placeholder">
+                            <div class="plus">✦</div>
+                            <span class="empty-text">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="prod-info">
+                    <p class="prod-brand" style="opacity:.2">Lala Reserve</p>
+                    <h3 class="prod-name" style="opacity:.2">New Arrival</h3>
+                    <div class="prod-price-row">
+                        <span class="prod-price" style="opacity:.2">— —</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ─── BRAND STORY ───────────────────────────────────────────── -->
+    <section class="story" id="story">
+        <div class="story-visual reveal">
+            <div class="story-frame">
+                <div class="story-frame-icon">👔</div>
+            </div>
+            <div class="story-stat">
+                <div class="num">12+</div>
+                <div class="label">Years of Excellence</div>
+            </div>
+        </div>
+        <div class="story-text reveal">
+            <p class="section-label">Our Heritage</p>
+            <h2 class="section-title">The Art of <em>Dressing Well</em></h2>
+            <div class="section-divider"></div>
+            <blockquote class="story-quote">
+                "A man who is well-dressed is treated differently — he commands rooms and wins hearts."
+            </blockquote>
+            <p class="story-body">
+                LALA Mens Wear was founded on a singular belief: every man deserves to look and feel extraordinary. From
+                hand-selected premium fabrics to meticulous tailoring, every garment we create reflects a deep
+                commitment to quality, elegance, and individual expression.
+                <br><br>
+                Our expert team of craftsmen brings decades of experience to each piece, ensuring that when you step out
+                in LALA, you carry an air of effortless sophistication.
+            </p>
+            <a href="#" class="btn-gold">Discover Our Story</a>
+        </div>
+    </section>
+
+    <!-- ─── FEATURES ──────────────────────────────────────────────── -->
+    <section class="features">
+        <div class="features-intro reveal">
+            <p class="section-label">Why Choose Us</p>
+            <h2 class="section-title">The <em>LALA</em> Promise</h2>
+            <div class="section-divider" style="margin:28px auto 0;"></div>
+        </div>
+        <div class="features-grid reveal">
+            <div class="feat-card">
+                <span class="feat-icon">✂️</span>
+                <h3 class="feat-title">Expert Tailoring</h3>
+                <p class="feat-desc">Our master tailors bring over two decades of experience crafting garments that fit
+                    like a second skin.</p>
+            </div>
+            <div class="feat-card">
+                <span class="feat-icon">🧵</span>
+                <h3 class="feat-title">Premium Fabrics</h3>
+                <p class="feat-desc">We source only the finest materials — Italian wool, Egyptian cotton, and rare
+                    blends that age with grace.</p>
+            </div>
+            <div class="feat-card">
+                <span class="feat-icon">🚚</span>
+                <h3 class="feat-title">Free Delivery</h3>
+                <p class="feat-desc">Complimentary express delivery on all orders above ₹2,500. Your wardrobe, delivered
+                    with care.</p>
+            </div>
+            <div class="feat-card">
+                <span class="feat-icon">🔄</span>
+                <h3 class="feat-title">Easy Returns</h3>
+                <p class="feat-desc">Not satisfied? We offer hassle-free 30-day returns because your confidence comes
+                    first.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── LOOKBOOK ──────────────────────────────────────────────── -->
+    <section class="lookbook" id="lookbook">
+        <div class="lookbook-header reveal">
+            <div>
+                <p class="section-label">Visual Stories</p>
+                <h2 class="section-title">The <em>Lookbook</em></h2>
+            </div>
+            <a href="#" class="btn-outline">View Full Lookbook</a>
+        </div>
+        <div class="lookbook-strip reveal">
+            <div class="look-item">
+                <div class="look-bg l1 look-inner">
+                    <div class="look-icon">🤵</div>
+                </div>
+                <div class="look-overlay"><span class="look-tag">The Boardroom</span></div>
+            </div>
+            <div class="look-item">
+                <div class="look-bg l2 look-inner">
+                    <div class="look-icon">🧥</div>
+                </div>
+                <div class="look-overlay"><span class="look-tag">Evening Affair</span></div>
+            </div>
+            <div class="look-item">
+                <div class="look-bg l3 look-inner">
+                    <div class="look-icon">👔</div>
+                </div>
+                <div class="look-overlay"><span class="look-tag">Weekend Luxe</span></div>
+            </div>
+            <div class="look-item">
+                <div class="look-bg l4 look-inner">
+                    <div class="look-icon">👖</div>
+                </div>
+                <div class="look-overlay"><span class="look-tag">Casual Prestige</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── TESTIMONIALS ──────────────────────────────────────────── -->
+    <section class="testimonials">
+        <div class="testimonials-intro reveal">
+            <p class="section-label">Client Voices</p>
+            <h2 class="section-title">What They <em>Say</em></h2>
+        </div>
+        <div class="testi-track reveal">
+            <div class="testi-card">
+                <p class="stars">★★★★★</p>
+                <p class="testi-text">The suit I bought from LALA completely transformed how people perceive me at work.
+                    The fit is perfect, the fabric is divine — I've received more compliments than I can count.</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">A</div>
+                    <div>
+                        <p class="testi-name">Arjun Mehta</p>
+                        <p class="testi-role">Business Executive</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <p class="stars">★★★★★</p>
+                <p class="testi-text">I wore LALA to my wedding and felt like a king. The craftsmanship is extraordinary
+                    — every detail was perfect. This is where luxury truly meets affordability.</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">R</div>
+                    <div>
+                        <p class="testi-name">Rahul Sharma</p>
+                        <p class="testi-role">Groom & Client</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testi-card">
+                <p class="stars">★★★★★</p>
+                <p class="testi-text">Visited the store for the first time and walked out with three outfits. The staff
+                    is incredibly knowledgeable and the quality speaks for itself. LALA is my go-to now.</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">S</div>
+                    <div>
+                        <p class="testi-name">Samir Khan</p>
+                        <p class="testi-role">Fashion Enthusiast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── NEWSLETTER ────────────────────────────────────────────── -->
+    <div class="newsletter" id="contact">
+        <div class="news-text">
+            <p class="section-label">Stay Ahead of Style</p>
+            <h2 class="section-title">Join the <em>Inner Circle</em></h2>
+            <p class="section-subtitle" style="color:rgba(0,0,0,.5);">Get exclusive access to new arrivals, private
+                sales & style guides.</p>
+        </div>
+        <div class="news-form">
+            <input type="email" class="news-input" placeholder="Your email address" />
+            <button class="news-submit">Subscribe</button>
+        </div>
+    </div>
+
+    <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="nav-logo">LALA<span>MENS WEAR</span></a>
+                <p class="footer-about">Where tradition meets contemporary luxury. Crafting garments that define the
+                    modern gentleman since 2012.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-btn">f</a>
+                    <a href="#" class="social-btn">in</a>
+                    <a href="#" class="social-btn">ig</a>
+                    <a href="#" class="social-btn">tw</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Collections</h4>
+                <ul>
+                    <li><a href="#">Premium Suits</a></li>
+                    <li><a href="#">Blazers & Jackets</a></li>
+                    <li><a href="#">Formal Shirts</a></li>
+                    <li><a href="#">Trousers</a></li>
+                    <li><a href="#">Casual Wear</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Personal Styling</a></li>
+                    <li><a href="#">Custom Tailoring</a></li>
+                    <li><a href="#">Wedding Packages</a></li>
+                    <li><a href="#">Corporate Bulk</a></li>
+                    <li><a href="#">Alterations</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><a href="#">📍 Visit Our Store</a></li>
+                    <li><a href="#">📞 +91 98765 43210</a></li>
+                    <li><a href="#">✉️ hello@lalamens.com</a></li>
+                    <li><a href="#">⏰ Mon–Sat: 10am–8pm</a></li>
+                    <li><a href="#">FAQs & Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 <span>LALA Mens Wear</span>. All rights reserved. Crafted with ♡</p>
+            <div class="payment-icons">
+                <span class="pay-badge">VISA</span>
+                <span class="pay-badge">MASTERCARD</span>
+                <span class="pay-badge">UPI</span>
+                <span class="pay-badge">COD</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ─── SCRIPTS ────────────────────────────────────────────────── -->
+    <script>
+        // Custom cursor
+        const cursor = document.getElementById('cursor');
+        const ring = document.getElementById('cursorRing');
+        let mx = 0, my = 0, rx = 0, ry = 0;
+
+        document.addEventListener('mousemove', e => {
+            mx = e.clientX; my = e.clientY;
+            cursor.style.left = mx + 'px';
+            cursor.style.top = my + 'px';
+        });
+
+        // Smooth ring follow
+        (function animate() {
+            rx += (mx - rx) * 0.12;
+            ry += (my - ry) * 0.12;
+            ring.style.left = rx + 'px';
+            ring.style.top = ry + 'px';
+            requestAnimationFrame(animate);
+        })();
+
+        // Navbar scroll effect
+        const nav = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        // Scroll reveal
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('visible');
+                    // Stagger children
+                    const children = e.target.children;
+                    [...children].forEach((ch, i) => {
+                        ch.style.transitionDelay = (i * 0.1) + 's';
+                    });
+                }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(r => observer.observe(r));
+
+        // Filter tabs
+        const tabs = document.querySelectorAll('.filter-tab');
+        tabs.forEach(t => t.addEventListener('click', () => {
+            tabs.forEach(x => x.classList.remove('active'));
+            t.classList.add('active');
+        }));
+    </script>
+</body>
+
+</html>
